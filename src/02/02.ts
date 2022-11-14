@@ -11,14 +11,14 @@ type TechType = {
     id: number
     title: string
 }
-type StudentType = {
+export type StudentType = {
     name: string
     age: number
     isActive: boolean
     address: AddressType
     technologies: TechType[]
 }
-const student: StudentType = {
+let student: StudentType = {
     name: 'Aleks',
     age: 36,
     isActive: true,
